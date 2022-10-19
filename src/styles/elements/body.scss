@@ -1,0 +1,68 @@
+/* ==========================================================================
+   BODY / ELEMENT
+   Le body permet d'initialiser les propriétés générales de la page.
+   Les éléments de la page vont hérités des propriétés inscrite dans body
+   ========================================================================== */
+
+.nav_gauche{
+
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 100px;
+
+}
+.logoRecherche{
+
+    font-size: 22px;
+}
+.btnRegister{
+    color: white;
+    padding: 7px;
+    width: 100px;
+   background-color: #459bf1;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 13px;
+}
+.header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9fdb4;
+
+}
+.logo{
+
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.brandLogo{
+
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.listeNav{
+
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+
+    li{
+
+        font-family: 'Arial Rounded MT Bold', sans-serif;
+    }
+
+
+}
+
+
+
+body {
+
+}
+
