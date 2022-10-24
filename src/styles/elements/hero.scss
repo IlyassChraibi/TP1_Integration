@@ -1,0 +1,120 @@
+.TitreHero{
+    font-weight: bold;
+
+
+}
+
+.soustitre{
+
+    margin-top: 25px;
+
+}
+
+.barreAvancement{
+    width: 573px;
+    height: 20px;
+    background-color: #eaeaea;
+
+
+}
+.progres{
+    width: 455px;
+    height: 20px;
+    background-color: #F0D1BF;
+
+}
+
+.boiteProgres{
+    margin-top: 30px;
+}
+
+.avancement{
+    display: flex;
+}
+
+.sept{
+   font-weight: bold;
+    font-size: 20px;
+}
+.dix{
+font-size: 19px;
+}
+
+.avancementdeux{
+    display: flex;
+    gap: 8px;
+    margin-right: 15px;
+}
+.boiteinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.pourcent{
+
+    font-weight: bold
+
+}
+.completed{
+
+    font-size: 16px;
+
+}
+
+.contributeurs{
+    display: flex;
+    gap: 5px;
+
+}
+
+.btnContribuer{
+    height: 60px;
+    width: 220px;
+    background-color: #F0D1BF;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+}
+
+.infobottom{
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contribuer{
+
+    color: white;
+
+}
+
+.quatre{
+
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.jours{
+
+    display: flex;
+    margin-top: -10px;
+}
+
+.txtbottom{
+    font-size: 15px;
+
+}
+
+.hero{
+
+    display: grid;
+
+
+}
+
+.imgMessi{
+    width: 500px;
+    height: 265px;
+    margin-left: 30px;
+}

@@ -1,0 +1,105 @@
+.ContenuPrincipal{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.hDroite{
+    font-weight: bold;
+}
+
+.boiteDroite{
+    width: 250px;
+    height: 300px;
+    background-color: #f9fdb4;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.boiteContribution{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+}
+
+
+.imgContribution{
+    width: 80px;
+    height: 80px;
+}
+
+.texte{
+    margin-top: 80px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+.titre{
+    margin-top: 30px;
+}
+
+.imgGauche{
+    width: 900px;
+    height: 250px;
+    margin-top: 120px;
+}
+
+.partieGauche{
+    padding-top: 20px;
+}
+
+.btnDroite{
+    height: 40px;
+    width: 120px;
+    background-color: #F0D1BF;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #f9fdb4;
+    margin-top: 20px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.foot{
+    background-color: #f9fdb4;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.footerimg{
+    width: 60px;
+    height: 60px;
+    margin-top: 35px;
+}
+.titreFooter{
+    margin-top: 35px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+

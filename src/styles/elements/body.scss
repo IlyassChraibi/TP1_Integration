@@ -3,6 +3,7 @@
    Le body permet d'initialiser les propriétés générales de la page.
    Les éléments de la page vont hérités des propriétés inscrite dans body
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .nav_gauche{
 
@@ -60,9 +61,59 @@
 
 }
 
-
-
 body {
 
 }
 
+.contain{
+    background-color: #F0D1BF;
+}
+
+.float-container {
+  margin-top: 50px;
+    padding: 50px;
+    background-color: #F5F5F5;
+
+
+}
+
+.float-child {
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+
+}
+.progress{
+    width:70%;
+    background-color: #F0D1BF;
+}
+
+.img-child{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding: 20px;
+
+
+}
+.img-container{
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.float-container-section {
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.float-child-section {
+    width: 75%;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    background-color: #F0D1BF;
+}
